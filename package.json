@@ -1,0 +1,35 @@
+{
+  "name": "authentication-with-jwt",
+  "version": "1.0.0",
+  "description": "Authentication with JWT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inceserhatabdullah/authentication-with-jwt.git"
+  },
+  "author": "inceserhatabdullah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inceserhatabdullah/authentication-with-jwt/issues"
+  },
+  "homepage": "https://github.com/inceserhatabdullah/authentication-with-jwt#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5"
+  }
+}
